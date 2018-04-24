@@ -1,0 +1,30 @@
+{
+  "name": "oracle",
+  "version": "1.0.0",
+  "description": "Executes divination",
+  "main": "index.js",
+  "bin": {
+    "oracle": "./bin/oracle"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jonathan Tran <jonnytran@gmail.com>",
+  "license": "AGPL-3.0",
+  "dependencies": {
+    "commander": "^2.15.1",
+    "redis": "^2.8.0"
+  },
+  "directories": {
+    "example": "examples"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jtran/oracle.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jtran/oracle/issues"
+  },
+  "homepage": "https://github.com/jtran/oracle#readme"
+}
